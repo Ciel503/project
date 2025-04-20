@@ -1,0 +1,365 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    padding-top: 70px;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#documento1 {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.contrato-header {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 11px;
+}
+
+.clausula {
+    margin-bottom: 15px;
+}
+
+.clausula-titulo {
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.tabela-beneficio {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+.tabela-beneficio th,
+.tabela-beneficio td {
+    border: 1px solid #000;
+    padding: 5px;
+    text-align: left;
+}
+
+.formula {
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.definicao {
+    margin-left: 20px;
+}
+
+.assinatura {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.assinatura .linha-assinatura {
+    width: 80%;
+    margin: 10px auto;
+    border-top: 1px solid #000;
+}
+
+.assinatura p {
+    margin: 5px 0;
+}
+
+.assinatura .cpf {
+    font-size: 12px;
+    color: #666;
+}
+
+#documento2 {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.documento2-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.documento2-header h1 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.documento2-header p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.documento2-content {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.documento2-content p {
+    margin: 5px 0;
+    text-indent: 20px;
+}
+
+.documento2-content strong {
+    font-weight: bold;
+}
+
+.documento2-content .identado {
+    margin-left: 20px;
+}
+
+.documento2-content .identado-duplo {
+    margin-left: 40px;
+}
+
+.documento2-content .centralizado {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.documento2-content .assinatura {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.documento2-content .linha-assinatura {
+    width: 50%;
+    border-top: 1px solid #000;
+    margin: 10px auto;
+}
+
+.documento2-content .cpf {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.documento2-content .data {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* adesao */
+
+.cont {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bloco {
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.bloco-titulo {
+    background-color: #1b2b45;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.linha {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 5px 0;
+}
+
+.linha span {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* segundo adesao */
+
+.bloco-subtitulo {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+
+thead {
+    background-color: #ddd;
+}
+
+.outorgado {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.assinatura-final {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.assinatura-final .linha-assinatura {
+    width: 300px;
+    margin: 10px auto;
+    border-top: 1px solid #000;
+}
+
+.assinatura-final p {
+    margin: 5px 0;
+}
+
+#documento3 {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.texto-inicial {
+    text-align: justify;
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.definicao {
+    margin: 10px 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 3px solid #1b2b45;
+}
+
+.subcontent {
+    margin-left: 15px;
+}
+
+.subcontent p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.acordo {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+/* Estilos do cabeçalho */
+.cabecalho {
+    background-color: #1b2b45;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.logo-texto {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.logo-icone {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    display: block;
+} 
+
+
+
